@@ -1,12 +1,5 @@
 # examwatch-js
 
-## Live demo
-
-- [Open the deployed demo](https://kunal7864321.github.io/exam-watch-js/)
-- [Browse the demo source](https://github.com/kunal7864321/exam-watch-js/tree/main/demo)
-
-The demo installs `examwatch-js` from npm and uses `ExamMonitor` in a Vite browser app.
-
 Lightweight, zero-dependency, browser-side **online exam monitoring** library. It detects integrity-related events during an exam and hands them to your code so you can log, warn, or flag them.
 
 It detects: tab switches, window blur, fullscreen exit, copy/cut/paste, right-click, print, suspicious shortcuts (Ctrl+C/V/U, F12, PrintScreen...), inactivity, and going offline.
