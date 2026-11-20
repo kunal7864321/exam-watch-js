@@ -1,0 +1,38 @@
+{
+  "name": "examwatch-js",
+  "version": "0.1.0",
+  "description": "Lightweight, privacy-friendly browser library for online exam monitoring: tab switches, fullscreen exits, copy/paste, inactivity and more.",
+  "type": "module",
+  "main": "./src/index.js",
+  "module": "./src/index.js",
+  "types": "./src/index.d.ts",
+  "exports": {
+    ".": {
+      "types": "./src/index.d.ts",
+      "import": "./src/index.js"
+    }
+  },
+  "files": [
+    "src",
+    "README.md",
+    "LICENSE"
+  ],
+  "sideEffects": false,
+  "scripts": {
+    "test": "node --test"
+  },
+  "keywords": [
+    "exam",
+    "proctoring",
+    "online-exam",
+    "monitoring",
+    "assessment",
+    "tab-switch",
+    "fullscreen",
+    "anti-cheating"
+  ],
+  "license": "MIT",
+  "engines": {
+    "node": ">=18"
+  }
+}
